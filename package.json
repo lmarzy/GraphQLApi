@@ -1,0 +1,39 @@
+{
+  "name": "graphqlapi",
+  "version": "1.0.0",
+  "description": "An Apollo Server GraphQL API",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf build",
+    "lint": "eslint 'src/**/*.{js,ts,tsx}' --quiet --fix",
+    "prettier": "prettier --config .prettierrc 'src/**/*.ts' --write",
+    "start": "nodemon src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmarzy/GraphQLApi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lmarzy/GraphQLApi/issues"
+  },
+  "homepage": "https://github.com/lmarzy/GraphQLApi#readme",
+  "dependencies": {
+    "apollo-server": "^2.13.1",
+    "graphql": "^15.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.5",
+    "@typescript-eslint/eslint-plugin": "^3.0.0",
+    "@typescript-eslint/parser": "^3.0.0",
+    "eslint": "^7.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.9.3"
+  }
+}
