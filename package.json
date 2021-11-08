@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/lmarzy/GraphQLApi#readme",
   "dependencies": {
-    "apollo-server": "^2.13.1",
+    "apollo-server": "^2.25.3",
     "graphql": "^15.0.0"
   },
   "devDependencies": {
